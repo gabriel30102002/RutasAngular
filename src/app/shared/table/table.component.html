@@ -1,0 +1,16 @@
+<table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Año</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dato of datos">
+            <td>{{dato.nombre}}</td>
+            <td>{{dato.apellido}}</td>
+            <td>{{dato.edad}}</td>
+          </tr>      
+    </tbody>
+  </table>
